@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.devstackl.quickcart.controller.SplashScreenController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="container" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstackl.quickcart.controller.SplashScreenController">
+   <children>
+      <Label layoutX="249.0" layoutY="234.0" text="Loading...">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="356.0" text="Version 1.0.0" />
+      <Label layoutX="454.0" layoutY="356.0" text="From: Developers Stack" />
+      <ProgressBar fx:id="progressbar" layoutX="200.0" layoutY="200.0" prefWidth="200.0" progress="0.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../New%20folder/Wattpad_logo.png" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>
