@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
-public class LoginFormController {
+public class VerifyEmail {
     public AnchorPane container;
 
     private void setUi(String location){
@@ -27,8 +27,7 @@ public class LoginFormController {
             throw new RuntimeException(e);
         }
     }
-
-    public void fogotpwdController(ActionEvent actionEvent) {
-        setUi("ForgotPassword");
+    public void verifyemailcontroller(ActionEvent actionEvent) {
+        setUi("ResetPassword");
     }
 }

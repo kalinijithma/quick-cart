@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.devstackl.quickcart.controller.LoginFormController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="container" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstackl.quickcart.controller.LoginFormController">
+   <children>
+      <Label layoutX="271.0" layoutY="42.0" text="Login">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="120.0" layoutY="104.0" prefHeight="26.0" prefWidth="367.0" />
+      <TextField layoutX="120.0" layoutY="152.0" prefHeight="26.0" prefWidth="367.0" />
+      <CheckBox layoutX="127.0" layoutY="228.0" mnemonicParsing="false" text="Show Password" />
+      <Button layoutX="149.0" layoutY="295.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="288.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" />
+      <Label layoutX="402.0" layoutY="228.0" textFill="#2531a1" underline="true" />
+      <Button layoutX="382.0" layoutY="224.0" mnemonicParsing="false" onAction="#fogotpwdController" text="Forgot password" underline="true" />
+   </children>
 </AnchorPane>
