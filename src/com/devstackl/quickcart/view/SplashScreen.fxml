@@ -19,7 +19,7 @@
       <ProgressBar fx:id="progressbar" layoutX="200.0" layoutY="200.0" prefWidth="200.0" progress="0.0" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../New%20folder/Wattpad_logo.png" />
+            <Image url="@/com/devstackl/quickcart/view/images/Wattpad_logo.png" />
          </image>
       </ImageView>
    </children>
