@@ -17,7 +17,7 @@
       <TextField layoutX="120.0" layoutY="104.0" prefHeight="26.0" prefWidth="367.0" />
       <TextField layoutX="120.0" layoutY="152.0" prefHeight="26.0" prefWidth="367.0" />
       <CheckBox layoutX="127.0" layoutY="228.0" mnemonicParsing="false" text="Show Password" />
-      <Button layoutX="149.0" layoutY="295.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="288.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" />
+      <Button layoutX="149.0" layoutY="295.0" mnemonicParsing="false" onAction="#AccessdashboardController" prefHeight="26.0" prefWidth="288.0" style="-fx-background-color: blue;" text="Access Dashboard" textFill="WHITE" />
       <Label layoutX="402.0" layoutY="228.0" textFill="#2531a1" underline="true" />
       <Button layoutX="382.0" layoutY="224.0" mnemonicParsing="false" onAction="#fogotpwdController" text="Forgot password" underline="true" />
    </children>

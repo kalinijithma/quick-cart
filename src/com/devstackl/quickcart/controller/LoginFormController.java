@@ -31,4 +31,8 @@ public class LoginFormController {
     public void fogotpwdController(ActionEvent actionEvent) {
         setUi("ForgotPassword");
     }
+
+    public void AccessdashboardController(ActionEvent actionEvent) {
+        setUi("Dashboard");
+    }
 }

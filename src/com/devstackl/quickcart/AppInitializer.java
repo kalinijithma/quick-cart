@@ -22,5 +22,4 @@ public class AppInitializer extends Application {
         primaryStage.setTitle("Quick Cart");
         primaryStage.show();
     }
-
 }
