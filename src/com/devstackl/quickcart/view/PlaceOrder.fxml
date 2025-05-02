@@ -56,5 +56,13 @@
             <Font name="System Bold" size="13.0" />
          </font>
       </Button>
+      <Label layoutX="15.0" layoutY="395.0" text="Gross:" />
+      <Label layoutX="75.0" layoutY="395.0" text="Label" />
+      <Label layoutX="15.0" layoutY="413.0" text="Tax:" />
+      <Label layoutX="75.0" layoutY="413.0" text="Label" />
+      <Label layoutX="15.0" layoutY="434.0" text="Discount:" />
+      <Label layoutX="75.0" layoutY="434.0" text="Label" />
+      <Label layoutX="15.0" layoutY="451.0" text="Net: " />
+      <Label layoutX="75.0" layoutY="451.0" text="Label" />
     </children>
 </AnchorPane>

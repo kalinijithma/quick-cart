@@ -41,4 +41,13 @@ public class Dashboardcontroller {
     public void activity_logAction(MouseEvent mouseEvent) {
         setUi("Activity_Log");
     }
+
+
+    public void SettingsonAction(MouseEvent mouseEvent) {
+        setUi("Settings");
+    }
+
+    public void OrderManagemetonAction(MouseEvent mouseEvent) {
+        setUi("Orders");
+    }
 }
