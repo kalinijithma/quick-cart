@@ -6,10 +6,11 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+
 import java.io.IOException;
 import java.net.URL;
 
-public class Dashboardcontroller {
+public class Statistic {
     public AnchorPane container;
 
     private void setUi(String location){
@@ -26,32 +27,8 @@ public class Dashboardcontroller {
             throw new RuntimeException(e);
         }
     }
-    public void openCustomerAction(MouseEvent mouseEvent) {
-        setUi("Customer_management");
-    }
+    public void back(MouseEvent mouseEvent) {
+        setUi("Dashboard");
 
-    public void onProductAction(MouseEvent mouseEvent) {
-        setUi("Product_management");
-    }
-
-    public void UsermanagementController(MouseEvent mouseEvent) {
-        setUi("User_Management");
-    }
-
-    public void activity_logAction(MouseEvent mouseEvent) {
-        setUi("Activity_Log");
-    }
-
-
-    public void SettingsonAction(MouseEvent mouseEvent) {
-        setUi("Settings");
-    }
-
-    public void OrderManagemetonAction(MouseEvent mouseEvent) {
-        setUi("Orders");
-    }
-
-    public void openStatisticFormonAction(MouseEvent mouseEvent) {
-        setUi("Statistic");
     }
 }

@@ -56,7 +56,7 @@
             </AnchorPane>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="399.0" layoutY="62.0" prefHeight="94.0" prefWidth="150.0" style="-fx-background-color: lightblue;">
+      <AnchorPane layoutX="399.0" layoutY="62.0" onMouseClicked="#openStatisticFormonAction" prefHeight="94.0" prefWidth="150.0" style="-fx-background-color: lightblue;">
          <effect>
             <DropShadow />
          </effect>
@@ -96,7 +96,7 @@
             <Insets />
          </opaqueInsets>
          <children>
-            <Label layoutX="28.0" layoutY="62.0"  text="Order Management" />
+            <Label layoutX="28.0" layoutY="62.0" text="Order Management" />
             <ImageView fitHeight="38.0" fitWidth="34.0" layoutX="58.0" layoutY="14.0" onMouseClicked="#OrderManagemetonAction">
                <image>
                   <Image url="@images/procurement.png" />
