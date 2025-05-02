@@ -31,4 +31,8 @@ public class Statistic {
         setUi("Dashboard");
 
     }
+
+    public void PrintData(MouseEvent mouseEvent) {
+        setUi("Orders");
+    }
 }
